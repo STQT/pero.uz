@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Environment Setup
+
+Before running the application, you need to configure the API URL:
+
+1. Create a `.env` file in the root directory of the project
+2. Add the following variable with your API URL:
+
+```
+REACT_APP_API_URI=https://your-api-domain.com
+```
+
+**Примеры для разных окружений:**
+
+- **Разработка:** `REACT_APP_API_URI=http://localhost:3001`
+- **Продакшн:** `REACT_APP_API_URI=https://api.pero.uz`
+- **Staging:** `REACT_APP_API_URI=https://staging-api.pero.uz`
+
+**Важно:** Перезапустите сервер разработки после изменения переменных окружения.
+
 ## Available Scripts
 
 In the project directory, you can run:

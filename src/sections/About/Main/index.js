@@ -16,7 +16,7 @@ export default function Main() {
       </div>
       <img
         data-aos="fade-left"
-        src="/assets/images/about-img.png"
+        src="/assets/images/about-img2.png"
         alt="About Pero"
         className='aboutmain__img'
       />
